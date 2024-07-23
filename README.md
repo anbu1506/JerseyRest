@@ -13,7 +13,7 @@ This is a simple RESTful application built using Jersey. It demonstrates basic R
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/anbu1506/JerseyRest.git
-   cd jersey-rest-app
+   cd jerseyRest
    ```
 
 2. **Build the project using Maven:**
@@ -22,7 +22,7 @@ This is a simple RESTful application built using Jersey. It demonstrates basic R
    ```
 
 3. **Deploy to Tomcat:**
-   - Copy the generated WAR file (`target/jersey-rest-app.war`) to the `webapps` directory of your Tomcat installation.
+   - Copy the generated WAR file (`target/jerseyRest.war`) to the `webapps` directory of your Tomcat installation.
 
 ## Running the Application
 
@@ -37,12 +37,12 @@ This is a simple RESTful application built using Jersey. It demonstrates basic R
      ```
 
 2. **Access the endpoints:**
-   - Open your browser or use a tool like `curl` or Postman to access the endpoints at `http://localhost:8080/jersey-rest-app/api`.
+   - Open your browser or use a tool like `curl` or Postman to access the endpoints at `http://localhost:8080/jerseyRest/webapi`.
 
 
 ## REST Endpoints
 
-- `GET /jersey/webapi/books/isbn001` - Returns info about a book.
+- `GET /jerseyRest/webapi/books/isbn001` - Returns info about a book.
 
 ## Filters
 
