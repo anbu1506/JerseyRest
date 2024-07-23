@@ -46,11 +46,7 @@ This is a simple RESTful application built using Jersey. It demonstrates basic R
 
 ## Filters
 
-Filters allow you to process requests and responses before and after resource methods are called. An example filter is provided in the `filters` package.
-
 ## Interceptors
-
-Interceptors allow you to implement cross-cutting concerns like logging and security. An example interceptor is provided in the `interceptors` package.
 
 ## Contributing
 
