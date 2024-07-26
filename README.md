@@ -48,5 +48,4 @@ This is a simple RESTful application built using Jersey. It demonstrates basic R
 
 ## Interceptors
 
-## Contributing
 
